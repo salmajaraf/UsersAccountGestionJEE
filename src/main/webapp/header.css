@@ -1,0 +1,52 @@
+
+/* Styles pour la barre de navigation (navbar) */
+.navbar-collapse{
+    background-color: rgba(139, 69, 19, 0.5);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    height: 50px;
+}
+
+.navbar-collapse {
+    /* Couleur de fond du bouton de bascule */
+    border: none; /* Supprime la bordure du bouton de bascule */
+    color: #fff; /* Couleur de l'icône de bascule */
+    font-size: 20px; /* Taille de la police de l'icône de bascule */
+    cursor: pointer; /* Curseur au survol du bouton de bascule */
+}
+
+.navbar-collapse:hover {
+    color:saddlebrown; /* Couleur de l'icône de bascule au survol */
+}
+
+/* Styles pour la liste de navigation (ul) */
+.nav {
+    list-style-type: none; /* Supprime les puces de la liste de navigation */
+    padding: 0; /* Supprime les espaces intérieurs de la liste */
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px; 
+    color: antiquewhite;/* Marge à droite entre les éléments de la liste */
+}
+
+.nav a {
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    color: #fff; /* Couleur du texte des liens */
+    padding:100px;
+}
+
+.nav a:hover {
+    color:saddlebrown; /* Couleur du texte des liens au survol */
+}
+/* Styles pour le logo */
+.logo {
+	padding-top: 13px;
+    width: 150px; /* Ajustez la largeur de votre logo selon vos besoins */
+    height: 150px; /* Garantit que le rapport hauteur-largeur est préservé */
+    margin-right: 20px; /* Espacement entre le logo et les éléments de la liste */
+}
+
